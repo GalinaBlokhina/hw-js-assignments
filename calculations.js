@@ -1,3 +1,13 @@
+function increment(x) {
+  return x = ++ x
+}
+console.log(increment(1000))
+
+function decrement (x) {
+  return x = -- x
+}
+console.log(decrement(2000))
+
 function increaseBalance(x, y) {
     return x += y 
   }
